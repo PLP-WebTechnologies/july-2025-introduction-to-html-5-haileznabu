@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the basics of HTML5, accessibility, and SEO with this simple and semantic example page." />
+  <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic HTML, Web Development" />
+  <meta name="author" content="Haile Znabu" />
+  <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Accessible & SEO-Friendly Web Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This sample HTML5 page demonstrates semantic structure, accessibility enhancements, and basic on-page SEO practices.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article aria-labelledby="feature1-heading">
+        <h3 id="feature1-heading">Semantic HTML5 Elements</h3>
+        <p>Using elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> improves both readability and SEO.</p>
+      </article>
+      <article aria-labelledby="feature2-heading">
+        <h3 id="feature2-heading">Accessibility-Friendly Markup</h3>
+        <p>Proper use of headings, alt attributes, and ARIA labels ensures  content is usable by everyone, including screen reader users.</p>
+      </article>
+      <article aria-labelledby="feature3-heading">
+        <h3 id="feature3-heading">Basic SEO Techniques</h3>
+        <p>With clean code, proper metadata, and meaningful content, search engines can better understandn the site.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Information</h2>
+      <p>You can reach me via <a href="mailto:haileznabu93@gmail.com">email</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Haile Znabu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
